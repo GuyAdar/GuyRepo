@@ -1,0 +1,37 @@
+<annotation>
+    <folder>images</folder>
+    <filename>DSCF1077.jpg</filename>
+    <path>/Users/guyadar/courses/keras-yolo2/busesTrain/busesTrain/images/DSCF1077.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>3648</width>
+        <height>2736</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>6</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>308</xmin>
+            <ymin>1282</ymin>
+            <xmax>1418</xmax>
+            <ymax>1902</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>1</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>1700</xmin>
+            <ymin>1342</ymin>
+            <xmax>2833</xmax>
+            <ymax>1966</ymax>
+        </bndbox>
+    </object>
+</annotation>

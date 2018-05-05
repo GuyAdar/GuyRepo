@@ -1,0 +1,26 @@
+<annotation>
+    <folder>images</folder>
+    <filename>DSCF1116.jpg</filename>
+    <path>/Users/guyadar/courses/keras-yolo2/busesTrain/busesTrain/images/DSCF1116.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>3648</width>
+        <height>2736</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>5</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>1539</xmin>
+            <ymin>1458</ymin>
+            <xmax>2537</xmax>
+            <ymax>1981</ymax>
+        </bndbox>
+    </object>
+</annotation>
