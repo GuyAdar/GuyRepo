@@ -1,0 +1,37 @@
+<annotation>
+    <folder>images</folder>
+    <filename>DSCF1082_2_6.1672.jpg</filename>
+    <path>C:\Users\alons\PycharmProjects\keras-yolo2\create_annon_blur\busesTrain\images\DSCF1082_2_6.1672.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>3648</width>
+        <height>2736</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>5</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>916</xmin>
+            <ymin>570</ymin>
+            <xmax>1925</xmax>
+            <ymax>1204</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>4</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>2034</xmin>
+            <ymin>472</ymin>
+            <xmax>3033</xmax>
+            <ymax>1113</ymax>
+        </bndbox>
+    </object>
+</annotation>
