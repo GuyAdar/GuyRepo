@@ -1,0 +1,36 @@
+{
+    "model" : {
+        "backend":              "Full Yolo",
+        "input_size":           416,
+        "anchors": [1.72,1.08, 2.66,1.71, 3.18,2.43, 3.96,2.98, 4.58,3.78],
+        "max_box_per_image":    10,
+        "labels":               ["1", "2", "3", "4", "5", "6"]
+    },
+
+    "train": {
+        "train_image_folder":   "GuyRepo/busesTrain/train/",
+        "train_annot_folder":   "GuyRepo/busesTrain/annots_train/",
+
+        "train_times":          10,
+        "pretrained_weights":   "weights_buses12.h5",
+        "batch_size":           20,
+        "learning_rate":        1e-4,
+        "nb_epochs":            50,
+        "warmup_epochs":        0,
+
+        "object_scale":         10.0,
+        "no_object_scale":      1.0,
+        "coord_scale":          1.0,
+        "class_scale":          1.0,
+
+        "saved_weights_name":   "weights_buses13.h5",
+        "debug":                true
+    },
+
+    "valid": {
+        "valid_image_folder":   "",
+        "valid_annot_folder":   "",
+
+        "valid_times":          1
+    }
+}
